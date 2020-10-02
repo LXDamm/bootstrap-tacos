@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #ffc600;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-c-primary {
+    background-color: var(--primary-color);
+}
+
+body {
+    background-image: url('/images/topography.svg'), linear-gradient(110deg, #f93d66, #6d47d9);
+}
+
+h4 {
+    font-size: 60px;
+}
+
+.main-nav-item {
+    background-color: var(--primary-color);
+}
+
+.hero-banner {
+    padding: 100px;
+    min-height: 400px;
+    background-image: url('/images/taco.jpg');
+}
+
+.hero-price {
+    background-color: var(--primary-color);
+}
+
+.icon {
+    font-size: 60px;
+}
